@@ -1,0 +1,44 @@
+header {
+    background-color: #244751;
+    color:#E8FDFF;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Slabo 27px', serif;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+h1:hover {
+    color:orange;
+}
+
+#rotator {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+}
+
+#rotator:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+
+#home_button {
+    color: black;
+}
